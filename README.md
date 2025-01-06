@@ -6,15 +6,16 @@ Analyzing churn by about figuring out why customers are churning at the rate the
 <img width="845" alt="image" src="https://github.com/user-attachments/assets/13d300d4-ebfc-491a-a229-27b66c6d6cbf" />
 
 ## Tasks performed in the Analysis
-- Checked for duplicate values
-- Calculated Churn rate using a binomial column by converting the Churn Label column with 'Yes' or 'No'
+- Perform data check in a table formats and then investigate whether there are any duplicate rows in our customer level data
+- Calculated Churn rate using a calculated binomial column using IF() by converting the Churn Label column with 'Yes' or 'No' by using '1' and '0'
 - Investigate the different reasons why customers churned using column chart
 - Identify which churn category is accounting for the highest proportion of churn
-- Analyze the different demographic fields from the dataset by categorizing age as 'Under 30', 'Other' and 'Senior'
+- Analyze the different demographic fields using nested IF() from the dataset by categorizing age as 'Under 30', 'Other' and 'Senior'
 - Create different age bins and make a combo chart visualizing the number of customers per bracket and their respective churn rates
 - Investigate how the Unlimited Data Plan influences the churn rate
 - Analyze the relationship between customers' international activity and churn
 - Investigate the contract type, and how many months a person is a customer
+- Create a table matrix that displays churn rate by state and international plan of top 25 states
 - Display key information such as total customers, number of churned customers and churn rate
 
 ## Insights gained from data for customer churn:
